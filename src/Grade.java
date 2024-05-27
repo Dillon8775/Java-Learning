@@ -11,7 +11,7 @@ public class Grade {
         System.out.println("What was the maximum amount of points on this assignment?");
         double maxPoints = scanner.nextDouble();
 
-        System.out.println("Okay, what did you make on the assignment?");
+        System.out.println("What did you make on the assignment?");
         double grade = scanner.nextDouble();
 
         double percentage = (grade / maxPoints) * 100;
